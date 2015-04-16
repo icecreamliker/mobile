@@ -9,4 +9,4 @@
 }
 4. 动画的同时，开始播放audio会造成顿卡现象，可以使用setTimeout来缓解性能瓶颈。
 5. flexbox在ios系统下完美展现（包括国外的android系统），但在部分国内手机下显示会有问题，建议慎用。
-6. 
+6. 可以使用createObjectURL来展示web端通过file获取的图片，视频，音频等，一定要记得及时通过revokeObjectURL释放内存。
